@@ -7,7 +7,7 @@ export default function Messages() {
   const [allowed, setAllowed] = useState(false);
   const [messages, setMessages] = useState([]);
 
-  const PASSWORD = "your-password"; // change this
+  const PASSWORD = "120225"; // change this
 
   const unlock = () => {
     if (inputPass === PASSWORD) {
