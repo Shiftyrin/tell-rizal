@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/https//:shiftyrin.github.io/tell-rizal/static/css/main.4cfdbf2f.css",
-    "main.js": "/https//:shiftyrin.github.io/tell-rizal/static/js/main.7d9e9737.js",
-    "static/js/453.2e113f6a.chunk.js": "/https//:shiftyrin.github.io/tell-rizal/static/js/453.2e113f6a.chunk.js",
-    "index.html": "/https//:shiftyrin.github.io/tell-rizal/index.html",
-    "main.4cfdbf2f.css.map": "/https//:shiftyrin.github.io/tell-rizal/static/css/main.4cfdbf2f.css.map",
-    "main.7d9e9737.js.map": "/https//:shiftyrin.github.io/tell-rizal/static/js/main.7d9e9737.js.map",
-    "453.2e113f6a.chunk.js.map": "/https//:shiftyrin.github.io/tell-rizal/static/js/453.2e113f6a.chunk.js.map"
+    "main.css": "/tell-rizal/static/css/main.4cfdbf2f.css",
+    "main.js": "/tell-rizal/static/js/main.e669e209.js",
+    "static/js/453.2e113f6a.chunk.js": "/tell-rizal/static/js/453.2e113f6a.chunk.js",
+    "index.html": "/tell-rizal/index.html",
+    "main.4cfdbf2f.css.map": "/tell-rizal/static/css/main.4cfdbf2f.css.map",
+    "main.e669e209.js.map": "/tell-rizal/static/js/main.e669e209.js.map",
+    "453.2e113f6a.chunk.js.map": "/tell-rizal/static/js/453.2e113f6a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4cfdbf2f.css",
-    "static/js/main.7d9e9737.js"
+    "static/js/main.e669e209.js"
   ]
 }
