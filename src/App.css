@@ -1,38 +1,90 @@
-.App {
+body {
+  background: #1b1c2d;
+  font-family: 'Quicksand', sans-serif;
+  color: #ffcdd5;
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.container {
+  max-width: 500px;
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form {
+  background: #2e2c45;
+  padding: 25px 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  text-align: left;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #ffcdd5;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+textarea,
+.input {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #55506b;
+  background: #1b1c2d;
+  color: #ffcdd5;
+  margin: 15px 0;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+textarea:focus,
+.input:focus {
+  border-color: #ffcdd5;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  background-color: #ffcdd5;
+  color: #2e2c45;
+  border: none;
+  padding: 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 10px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.button:hover {
+  background-color: #ffd8e0;
+}
+
+footer {
+  margin-top: 50px;
+  font-style: italic;
+  color: #ffd4e2;
+  font-size: 1rem;
+  border-top: 1px solid #35344f;
+  padding-top: 20px;
+  text-align: center;
+  font-weight: 400;
 }

@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import MessageForm from "./components/MessageForm";
+import Messages from "./components/Messages";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <h1>Tell Rizal What's Wrong</h1>
+      <MessageForm />
+      <Messages />
+      <footer>
+        <p>No matter how heavy the storms, or how long the nights — <br />
+        I’ll always be there, quietly holding space for your light.</p>
+      </footer>
     </div>
   );
 }
